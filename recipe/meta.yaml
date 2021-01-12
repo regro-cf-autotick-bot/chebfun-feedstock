@@ -1,5 +1,5 @@
 {% set name = "chebfun" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/chebpy/chebpy/archive/v{{ version }}.tar.gz
-  sha256: 2ca7a309aeccb049523eb0d1b67a7364af08b63224172815c23e425b9ef7a158
+  sha256: 8f808877d3b5cb7a61cb48db9d8e8fc9a2bf051b516ba400dbfd3d776e65f318
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: 'A Python implementation of Chebfun'
+  summary: A Python implementation of Chebfun
   description: |
     chebpy is a Python implementation of the popular MATLAB package
     Chebfun <http://chebfun.org>, allowing for computing with functions
