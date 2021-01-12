@@ -5,9 +5,13 @@ Home: https://github.com/chebpy/chebpy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chebfun-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python implementation of Chebfun
+
+Development: https://github.com/chebpy/chebpy
+
+Documentation: https://github.com/chebpy/chebpy
 
 chebpy is a Python implementation of the popular MATLAB package
 Chebfun <http://chebfun.org>, allowing for computing with functions
